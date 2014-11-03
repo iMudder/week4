@@ -7,8 +7,7 @@ main {
 }
 
 nav {
-      background: hsla(235, 100%, 25%, 1);
-      color: white;
+      background: hsla(235, 100%, 70%, 1);
 }
 
 nav li {
@@ -23,9 +22,10 @@ nav li:first-of-type {
 
 article {
           float: left;
-          background: hsla(235, 100%, 70%, 1);
+          background: hsla(235, 100%, 60%, 1);
           width: 175px;
           text-indent: 15px;
+          color: white;
 }
 
 article li {
@@ -54,6 +54,11 @@ h1 {
 
 footer {
         clear: both;
-        padding: .5em;
+        padding: .25em;
         background: white;
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: space-around; /* Safari 6.1+ */
+        display: flex;
+        justify-content: space-around;
+
 }
