@@ -1,3 +1,5 @@
+* {margin: 0; padding: 0;}
+
 body, html {
             font-family: sans-serif;
 }
@@ -23,7 +25,8 @@ nav li:first-of-type {
 article {
           float: left;
           background: hsla(235, 100%, 60%, 1);
-          width: 175px;
+          width: 25%;
+          height: 600px;
           text-indent: 0px;
           color: white;
 }
@@ -31,17 +34,26 @@ article {
 article li {
             list-style-type: none;
             padding-bottom: 2.5em;
+            padding-left: 2.5em;
+}
+
+article li:first-of-type {
+                          padding-top: 2.5em;
 }
 
 aside {
         float: right;
         background: hsla(235, 100%, 80%, 1);
-        width: 550px;
+        width: 70%;
         text-align: center;
-        padding-bottom: 15px;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
         padding-right: 25px;
 }
 
+aside figure {
+              width: auto;
+}
 aside img {
             padding-bottom: 25px;
 }
