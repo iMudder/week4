@@ -24,13 +24,13 @@ article {
           float: left;
           background: hsla(235, 100%, 60%, 1);
           width: 175px;
-          text-indent: 15px;
+          text-indent: 0px;
           color: white;
 }
 
 article li {
             list-style-type: none;
-            line-height: 400%;
+            padding-bottom: 2.5em;
 }
 
 aside {
@@ -39,10 +39,11 @@ aside {
         width: 550px;
         text-align: center;
         padding-bottom: 15px;
+        padding-right: 25px;
 }
 
 aside img {
-            padding-bottom: 15px;
+            padding-bottom: 25px;
 }
 
 h1 {
