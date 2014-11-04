@@ -1,15 +1,15 @@
-* {margin: 0; padding: 0;}
-
-body, html {
-            font-family: sans-serif;
+* {
+    margin: 0; 
+    padding: 0;
 }
 
-main {
-      background: hsla(235, 100%, 80%, 1);
-}
+body, html {font-family: sans-serif;}
+
+main {background: hsla(235, 100%, 80%, 1);}
 
 nav {
       background: hsla(235, 100%, 70%, 1);
+      padding-left: 1.5em;
 }
 
 nav li {
@@ -18,9 +18,7 @@ nav li {
         border-left: 1px solid white;
 }
 
-nav li:first-of-type {
-                      border-left: none;
-}
+nav li:first-of-type {border-left: none;}
 
 article {
           float: left;
@@ -35,11 +33,10 @@ article li {
             list-style-type: none;
             padding-bottom: 2.5em;
             padding-left: 2.5em;
+            padding-right: 1em;
 }
 
-article li:first-of-type {
-                          padding-top: 2.5em;
-}
+article li:first-of-type {padding-top: 2.5em;}
 
 aside {
         float: right;
@@ -51,27 +48,25 @@ aside {
         padding-right: 25px;
 }
 
-aside figure {
-              width: auto;
-}
-aside img {
-            padding-bottom: 25px;
-}
+aside figure {width: auto;}
+
+aside img {padding-bottom: 25px;}
 
 h1 {
     margin: 0;
     font-size: 48px;
+    line-height: 1.5em;
     text-align: center;
     color: hsla(235, 100%, 25%, 1);
 }
 
 footer {
         clear: both;
-        padding: .25em;
+        padding-top: 2em;
+        padding-left: 25%;
         background: white;
         display: -webkit-flex; /* Safari */
         -webkit-justify-content: space-around; /* Safari 6.1+ */
         display: flex;
         justify-content: space-around;
-
 }
